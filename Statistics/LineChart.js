@@ -117,16 +117,16 @@ export default function LineChart() {
 
             {
                 name: "Viewers",
-                data: [UpdatedData.dayViewers]
+                data: [0,UpdatedData.dayViewers,0]
             },
             {
                 name: "Clicks",
-                data: [UpdatedData.dayClicks]
+                data: [0,UpdatedData.dayClicks,0]
             },
 
             {
                 name: "Leads",
-                data: [UpdatedData.dayLeads]
+                data: [0,UpdatedData.dayLeads,0]
             },
             {
                 name: "Calls",
